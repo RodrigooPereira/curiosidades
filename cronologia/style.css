@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(116, 114, 114),rgb(29, 27, 27) );
+    min-height: 150px;
+    text-align: center;
+    padding-top: 15px;
+}
+header > p {
+    padding-top: 20px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+main p {
+    text-indent: 10px;
+    text-align: justify;
+}
