@@ -5,8 +5,12 @@
     padding: 0px;
 }
 
+body {
+    background-color: rgb(160, 157, 157);
+}
+
 header {
-    background-image: linear-gradient(to bottom, rgb(116, 114, 114),rgb(29, 27, 27) );
+    background-image: linear-gradient(to bottom, rgb(116, 114, 114),rgb(37, 35, 35) );
     min-height: 150px;
     text-align: center;
     padding-top: 15px;
@@ -17,7 +21,41 @@ header > p {
     padding-bottom: 20px;
 }
 
+nav {
+    background-color: rgb(37, 35, 35);
+    padding: 10px;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    transition-duration: 2s;
+}
+
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 13px;
+}
+
+main h1 {
+    padding-bottom: 10px;
+}
+
+h1#ordem {
+    padding-bottom: 20px;
+}
+
+main img {
+    width: 100%;
+}
+
 main p {
     text-indent: 10px;
     text-align: justify;
+    padding-bottom: 10px;
 }
